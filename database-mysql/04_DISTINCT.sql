@@ -2,7 +2,7 @@
 
 SELECT DISTINCT category_code
 	FROM tbl_menu
-    ORDER BY category_code; -- 중복값을 가진 컬럼을 제거한다
+    ORDER BY category_code; -- 중복값을 가진 튜플을 제외한다
     
 SELECT DISTINCT ref_category_code
 	FROM tbl_category;
